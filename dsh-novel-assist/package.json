@@ -1,9 +1,27 @@
 {
   "name": "dsh-novel-assist",
-  "version": "0.6.0",
-  "private": true,
+  "version": "1.0.0",
   "type": "module",
   "description": "Novel writing assistant panel: bind a local manuscript folder and keep creation parameters in view.",
+  "license": "MIT",
+  "author": "ReWebaiyu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReWebaiyu/dsh-novel-assist.git"
+  },
+  "homepage": "https://github.com/ReWebaiyu/dsh-novel-assist#readme",
+  "bugs": {
+    "url": "https://github.com/ReWebaiyu/dsh-novel-assist/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "novel",
+    "writing",
+    "assistant",
+    "panel"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -18,6 +36,7 @@
     "locale/*.json",
     "icon.svg",
     "README.md",
+    "LICENSE",
     "docs/*.md",
     "src/build-client.mjs",
     "src/client/*.js"
