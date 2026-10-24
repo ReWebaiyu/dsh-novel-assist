@@ -1,0 +1,14 @@
+# 依赖与构建产物
+node_modules/
+*.zip
+
+# 运行时/个人数据（含本地书籍目录、写作参数、扫榜结果）
+data-backup/
+
+# 系统与编辑器杂物
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/

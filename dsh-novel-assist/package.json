@@ -1,0 +1,39 @@
+{
+  "name": "dsh-novel-assist",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Novel writing assistant panel: bind a local manuscript folder and keep creation parameters in view.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "rank.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "docs/*.md",
+    "src/build-client.mjs",
+    "src/client/*.js"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

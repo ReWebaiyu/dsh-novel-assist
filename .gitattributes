@@ -1,0 +1,6 @@
+# 统一按 LF 存储，避免 Windows 换行符污染仓库
+* text=auto eol=lf
+*.zip binary
+*.png binary
+*.jpg binary
+*.ico binary

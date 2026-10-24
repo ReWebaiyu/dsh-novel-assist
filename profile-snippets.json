@@ -1,0 +1,19 @@
+{
+  "plugin": "dsh-novel-assist",
+  "version": "0.6.0",
+  "profile": "desktop",
+  "profileDir": "C:\\Users\\lx\\.dsh\\profiles\\desktop",
+  "profileDependency": "link:D:/WenJian/GZQ/novel-assist",
+  "profileBundlesEntry": "dsh-novel-assist",
+  "hostRow": {
+    "patchId": "novel-assist",
+    "entryId": "include:novel-assist"
+  },
+  "dataPaths": {
+    "state": "C:\\Users\\lx\\.dsh\\novel-assist\\state.json",
+    "rankCache": "C:\\Users\\lx\\.dsh\\novel-assist\\rank-last.json",
+    "skills": "C:\\Users\\lx\\.dsh\\skills"
+  },
+  "sourcePath": "D:\\WenJian\\GZQ\\novel-assist",
+  "backupPath": "D:\\DSH\\dsh-novel-assist"
+}
