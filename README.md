@@ -1,10 +1,4 @@
 # DSH 小说辅助模拟插件（dsh-novel-assist 0.6.0）
-
-本目录是 **DSH 插件工程**的完整另存，位置 `D:\DSH`。
-
-> 注意：这里备份的是插件本身，不是 DeepSeek Harness 应用本体。
-> 应用本体仍在 `D:\WenJian\DeepSeek`；如果需要连同应用一起备份，可以另外复制该目录。
-
 ## 目录
 
 ```
